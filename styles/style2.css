@@ -1,0 +1,184 @@
+body {
+    background: url("../Images/RTPM2.JPG") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.titre1 {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    color: red;
+    font-size: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.titre2 {
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    color: red;
+    font-size: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height: auto;
+}
+
+.info1, .info2, .info3 {
+    position: absolute;
+    left: 20px;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.info1 { bottom: 60px; }
+.info2 { bottom: 40px; }
+.info3 { bottom: 20px; }
+
+.titre_planning {
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    color: black;
+    font-size: xx-large;
+    background-color: white;
+    display: block;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.jour_1, .jour_2, .jour_3, .jour_4, .jour_5, .jour_6, .jour_7 {
+    position: absolute;
+    top: 40%;
+    color: black;
+    font-size: x-large;
+    background-color: white;
+    display: block;
+    padding-left: 10px;
+    padding-bottom: 190px;
+    border: 2px solid black;
+    text-align: top;
+}
+.jour_1 { left: 17%;  padding-right: 115px; }
+.jour_2 { left: 27%;  padding-right: 115px; }
+.jour_3 { left: 37%;  padding-right: 115px; }
+.jour_4 { left: 47%;  padding-right: 115px; }
+.jour_5 { left: 57%;  padding-right: 110px; }
+.jour_6 { left: 67%;  padding-right: 110px; }
+.jour_7 { left: 77%;  padding-right: 20px; }
+
+.horraires_matin_1, .horraires_matin_2, .horraires_matin_3, .horraires_matin_4, .horraires_matin_5, .horraires_samedi, .horraires_dimanche {
+    position: absolute;
+    top: 50%;
+    color: black;
+    font-size: large;
+    background-color: white;
+    display: block;
+}
+.horraires_matin_1 { left: 17.5%; }
+.horraires_matin_2 { left: 27.5%; }
+.horraires_matin_3 { left: 37.5%; }
+.horraires_matin_4 { left: 47.5%; }
+.horraires_matin_5 { left: 57.5%; }
+.horraires_samedi { left: 67.5%; }
+.horraires_dimanche { left: 77.5%; }
+
+.horraires_aprem_1, .horraires_aprem_2, .horraires_aprem_3, .horraires_aprem_4, .horraires_aprem_5, .horraires_samedi_aprem, .horraires_dimanche_aprem {
+    position: absolute;
+    top: 57%;
+    color: black;
+    font-size: large;
+    background-color: white;
+    display: block;
+}
+.horraires_aprem_1 { left: 17.5%; }
+.horraires_aprem_2 { left: 27.5%; }
+.horraires_aprem_3 { left: 37.5%; }
+.horraires_aprem_4 { left: 47.5%; }
+.horraires_aprem_5 { left: 57.5%; }
+.horraires_samedi_aprem { left: 67.5%; }
+.horraires_dimanche_aprem { left: 77.5%; }
+
+.matin {
+    position: absolute;
+    top: 49%;
+    left: 10%;
+    color: black;
+    font-size: x-large;
+    background-color: white;
+    display: block;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 55px;
+    border: 2px solid black;
+    text-align: top;
+}
+.aprem {
+    position: absolute;
+    top: 56%;
+    left: 10%;
+    color: black;
+    font-size: x-large;
+    background-color: white;
+    display: block;
+    padding-left: 5px;
+    padding-right: 3px;
+    padding-bottom: 41px;
+    border: 2px solid black;
+    text-align: bottom;
+}
+
+.redirect-button1,
+.redirect-button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    transition: background 0.2s, font-size 0.2s;
+}
+
+.redirect-button1 {
+    color: white;
+    background-color: #007BFF;
+    top: 40px;
+    right: 40px;
+}
+.redirect-button1:hover {
+    background-color: #0056b3;
+    font-size: 50px;
+}
+
+.redirect-button2 {
+    color: blue;
+    background-color: white;
+    bottom: 40px;
+    right: 40px;
+}
+.redirect-button2:hover {
+    background-color: #e0e0e0;
+    font-size: 50px;
+}

@@ -1,0 +1,125 @@
+body {
+    background: url("../Images/RTPM1.JPG") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.titre1 {
+    color: red;
+    font-size: 60px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.titre2 {
+    color: red;
+    font-size: 40px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height: auto;
+}
+
+.info1, .info2, .info3 {
+    position: absolute;
+    left: 20px;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.info1 { bottom: 60px; }
+.info2 { bottom: 40px; }
+.info3 { bottom: 20px; }
+
+.redirect-button1,
+.redirect-button2,
+.redirect-button3,
+.redirect-button4 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    transition: background 0.2s, font-size 0.2s;
+}
+
+.redirect-button1 {
+    color: white;
+    background-color: #007BFF;
+    top: 40px;
+    right: 40px;
+}
+.redirect-button1:hover {
+    background-color: #0056b3;
+    font-size: 50px;
+}
+
+.redirect-button2 {
+    color: white;
+    background-color: #007BFF;
+    top: 120px;
+    right: 40px;
+}
+.redirect-button2:hover {
+    background-color: #0056b3;
+    font-size: 50px;
+}
+
+.redirect-button3 {
+    color: white;
+    background-color: #007BFF;
+    top: 200px;
+    right: 40px;
+}
+.redirect-button3:hover {
+    background-color: #0056b3;
+    font-size: 50px;
+}
+
+.redirect-button4 {
+    color: blue;
+    background-color: white;
+    bottom: 40px;
+    right: 40px;
+}
+.redirect-button4:hover {
+    background-color: #e0e0e0;
+    font-size: 50px;
+}
+
+.long-text {
+    position: absolute;
+    left: 37%;
+    top: 25%;
+    width: 500px;
+    font-size: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    word-wrap: break-word;
+    white-space: normal;
+}
